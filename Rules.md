@@ -2,26 +2,33 @@
 * Rout
 * Seize
 
+### First Turn
+* Each player rolls a d20. The player who rolls the highest goes first. The turn order is counterclockwise.
+
 ### Units
 * __Infantry__
-  * Attack - 2
-  * Defense - 2
+  * Attack - 1
+  * Defense - 1
   * Description
     * A mobile Unit capable of moving on any Tile. Can Seize an enemy's base.
+  * Squad size - 5
 * __Mech__
-  * Attack - 3
-  * Defense - 2
+  * Attack - 2
+  * Defense - 1
   * Description
     * A strong Unit capable of moving onto Plains and Forest Tiles. Cannot Seize an enemy's base.
-    
+  * Squad size - 3
+
 ### Tiles
 * Tile Effects
  * When this Unit is on a given tile, it experiences the following effect
- | Tile     | Effect            |
- | :------- | :---------------- |
- |  Plains  |  No Effect        |
- |  Forest  | +1 Defense        |
- | Mountains| +1 Attack/Defense |
+
+
+ | Tile     | Effect                                  |
+ | :------- | :-------------------------------------- |
+ |  Plains  |  No Effect                              |
+ |  Forest  | +1 Defense to squad as a whole          |
+ | Mountains| +1 Attack +1 Defense to squad as a whole|
 
 
 ### Tile Placement
@@ -39,11 +46,12 @@
 ### Battle
 * Battle occurs when one Unit declares an attack on an adjacent Unit owned by the other player.
 
-|    Roll     | Modifier |
-| :---------- | :------- |
-| 10 or below |    +1    |
-| 11 or higher|    +2    |
+| Roll  | Modifier |
+| :---- | :------- |
+| 1     |    0     |
+| 2-9   |    +1    |
+| 10-14 |    +2    |
+| 15-19 |    +3    |
+| 20    |    +4    |
 1. Each player rolls a d20. Each player gets a modifier according to the result of their roll. See the table above for modifiers.
-2.
-
-The attacking player rolls for an attack boost, whilst the defending player rolls for a defense boost.
+  * The attacking player rolls for an attack boost, whilst the defending player rolls for a defense boost.
