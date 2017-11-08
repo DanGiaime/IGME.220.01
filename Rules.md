@@ -40,14 +40,16 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
  |  Plains  |  No Effect                              |
  |  Forest  | +1 Defense to squad as a whole          |
  | Mountains| +1 Attack +1 Defense to squad as a whole|
+ | Base     | No Unit Limit                           |
+* Tiles can hold at most one squad of Infantry, or one squad of Mechs unless otherwise stated.
 
 
-### Tile Placement
-* _Tiles_ are stored in a stack, upside-down so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
-* Tile Placement happens when you move a unit into “unknown terrain” i.e. move them into fog of war
-* Tile placement consists of grabbing a Tile from the Tile Stack
-* Tile stack, and placing it where one intends to move. One must first declare their intent to move in a given direction, at which point a Terrain Tile is drawn and placed at that location. If the moving Unit can move onto the new tile, it does so. If not, the Unit goes into a Stunned state for a turn, and does not move.
-* A given Unit can reveal at most one tile per turn.
+### Movement/Exploration
+* _Tiles_ are placed upside-down across the field, so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
+* Tile Reveal happens when you move a unit into “unknown terrain” i.e. move them into fog of war
+* Tile Reveal consists of flipping a Tile that was previously unknown terrain.
+* One must first declare their intent to move in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the moving Unit can move onto the new tile, it does so. If not, the Unit goes into a Stunned state for a turn, and does not move.
+* A given Squadron of units can reveal at most one tile per turn.
 
 ### Turn Order
 1. Move Unit(s) (if not impeded)
