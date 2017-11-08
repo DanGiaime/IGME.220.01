@@ -1,9 +1,17 @@
+### Setup
+* Begin by selecting the two base tiles(bright green), and placing them exactly 3 tiles-length apart.
+* Place all world tiles onto the field randomly upside-down, so that the logo is not visible.
+  * Begin by placing the 3 upside-down tiles between the two bases. Then, build outwards equally on both sides until all tiles have been placed, and a hexagon shape is achieved. The bases should be on the edges of these hexagons.
+* Place all units onto the base tile.
+  * Starting Units
+    * Infantry - 10
+    * Mech - 3
+* Deciding who goes first
+  * Each player rolls a d20. The player who rolls the highest goes first. The turn order is counterclockwise.
+
 ### Win Conditions
 * Rout
 * Seize
-
-### First Turn
-* Each player rolls a d20. The player who rolls the highest goes first. The turn order is counterclockwise.
 
 ### Units
 * __Infantry__
