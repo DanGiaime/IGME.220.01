@@ -30,26 +30,25 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
     * A strong Unit capable of moving onto Plains and Forest Tiles. Cannot Seize an enemy's Headquarters.
   * Squad size - 3
 
-### Tiles
-* Tile Effects
- * When this Unit is on a given tile, it experiences the following effect
-
-
- | Tile     | Effect                                  |
- | :------- | :-------------------------------------- |
- |  Plains  |  No Effect                              |
- |  Forest  | +1 Defense to squad as a whole          |
- | Mountains| +1 Attack +1 Defense to squad as a whole|
- | Base     | No Unit Limit                           |
-* Tiles can hold at most one squad of Infantry, or one squad of Mechs unless otherwise stated.
-
-
 ### Movement/Exploration
 * _Tiles_ are placed upside-down across the field, so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
 * Tile Reveal happens when you move a unit into “unknown terrain” i.e. move them into fog of war
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the moving Unit can move onto the new tile, it does so. If not, the Unit goes into a Stunned state for a turn, and does not move.
 * A given Squadron of units can reveal at most one tile per turn.
+
+### Tiles
+* Tile Effects
+ * When this Unit is on a given tile, it experiences the following effect
+
+
+ | Tile     | Battle Effect                           | Discovery Effects                                 |
+ | :------- | :-------------------------------------- | :----------------                                 |
+ |  Plains  |  No Effect                              | No Effect                                         |
+ |  Forest  | +1 Defense to squad as a whole          | Mechs return to previous position and are impeded |
+ | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs return to previous position and are impeded |
+ | Base     |  No Unit Limit on turn 1                | If enemy base, Unit is impeded                    |
+* Tiles can hold at most one squad of Infantry, or one squad of Mechs unless otherwise stated.
 
 ### Turn Order
 1. Move Unit(s) (if not impeded)
