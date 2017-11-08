@@ -42,6 +42,10 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 | 20    |    +4    |
 1. Each player rolls a d20. Each player gets a modifier according to the result of their roll. See the table above for modifiers.
   * The attacking player rolls for an attack boost, whilst the defending player rolls for a defense boost.
+2. Calculate total unit attack + tile attack modifier (if any) + roll attack modifier for the attacking player
+3. Calculate total unit defense + tile defense modifier (if any) + roll defense modifier for the defending player
+4. If total attack > total defense, the defending player loses the difference in units
+5. If total defense >= total attack, the attacking player remains in their current location and is impeded
 
 
 ### Tiles
