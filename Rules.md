@@ -49,10 +49,10 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
  * When this Unit is on a given tile, it experiences the following effect
 
 
- | Tile     | Battle Effect                           | Discovery Effects                                 |
+ | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
  | :------- | :-------------------------------------- | :----------------                                 |
  |  Plains  |  No Effect                              | No Effect                                         |
- |  Forest  | +1 Defense to squad as a whole          | Mechs return to previous position and are impeded |
+ |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded |
  | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs return to previous position and are impeded |
  | Headquarters     |  No Unit Limit on turn 1                | If enemy Headquarters, Unit is impeded                    |
 * Tiles can hold at most one squad of Infantry, or one squad of Mechs unless otherwise stated.
