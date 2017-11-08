@@ -28,7 +28,7 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 * An Action consists of either a move or an attack
 * Units can move or attack in groups. No more than one full squad can move/attack at a time.
 * Units can also choose not to use their Action this turn.
-* Once all Units have expended their actions or chosen not to use them, the turn is over. 
+* Once all Units have expended their actions or chosen not to use them, the turn is over.
 
 ### Battle
 * Battle occurs when one Unit declares an attack on an adjacent Unit owned by the other player.
@@ -54,7 +54,7 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
  |  Plains  |  No Effect                              | No Effect                                         |
  |  Forest  | +1 Defense to squad as a whole          | Mechs return to previous position and are impeded |
  | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs return to previous position and are impeded |
- | Base     |  No Unit Limit on turn 1                | If enemy base, Unit is impeded                    |
+ | Headquarters     |  No Unit Limit on turn 1                | If enemy Headquarters, Unit is impeded                    |
 * Tiles can hold at most one squad of Infantry, or one squad of Mechs unless otherwise stated.
 
 ### Units
