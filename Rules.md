@@ -1,9 +1,13 @@
+
 ### Win Conditions
-* Rout
+* Route
+ * Achieved by holding the enemy's base for a total of 5 turns ( 1 unit on the home base = 1 turn )
+ 
 * Seize
+ * Achieved by destroying all enemy units
 
 ### First Turn
-* Each player rolls a d20. The player who rolls the highest goes first. The turn order is counterclockwise.
+* Each player rolls a D20 dice, player who rolls the highest goes first. The turn order is then counterclockwise.
 
 ### Units
 * __Infantry__
