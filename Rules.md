@@ -1,8 +1,8 @@
 ### Setup
-* Begin by selecting the two base tiles(bright green), and placing them exactly 3 tiles-length apart.
+* Begin by selecting the two Headquarters tiles(bright green), and placing them exactly 3 tiles-length apart.
 * Place all world tiles onto the field randomly upside-down, so that the logo is not visible.
-  * Begin by placing the 3 upside-down tiles between the two bases. Then, build outwards equally on both sides until all tiles have been placed, and a hexagon shape is achieved. The bases should be on the edges of these hexagons.
-* Place all units onto the base tile.
+  * Begin by placing the 3 upside-down tiles between the two Headquarters. Then, build outwards equally on both sides until all tiles have been placed, and a hexagon shape is achieved. The Headquarters should be at opposing corners of the hexagonal map.
+* Place all units onto the Headquarters tile.
   * Starting Units
     * Infantry - 10
     * Mech - 3
@@ -18,13 +18,13 @@
   * Attack - 1
   * Defense - 1
   * Description
-    * A mobile Unit capable of moving on any Tile. Can Seize an enemy's base.
+    * A mobile Unit capable of moving on any Tile. Can Seize an enemy's Headquarters.
   * Squad size - 5
 * __Mech__
   * Attack - 2
   * Defense - 1
   * Description
-    * A strong Unit capable of moving onto Plains and Forest Tiles. Cannot Seize an enemy's base.
+    * A strong Unit capable of moving onto Plains and Forest Tiles. Cannot Seize an enemy's Headquarters.
   * Squad size - 3
 
 ### Tiles
