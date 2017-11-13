@@ -12,7 +12,7 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 * Place all squads onto the Headquarters tile.
   * Starting squads
     * Infantry - 6 units
-		* Rocket - 6 units
+    * Rocket - 6 units
     * Mech - 3 units
 * Deciding who goes first
   * Play a round of _Rock, Paper, Scissors_. The winning player goes first.
