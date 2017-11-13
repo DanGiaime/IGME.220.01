@@ -16,43 +16,19 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 * Deciding who goes first
   * Each player rolls a d20. The player who rolls the highest goes first. The turn order is counterclockwise.
 
-### Units
-* __Infantry__
-  * Attack - 1
-  * Defense - 1
-  * Description
-    * A mobile Unit capable of moving on any Tile. Can Seize an enemy's Headquarters.
-  * Squad size - 5
-* __Mech__
-  * Attack - 2
-  * Defense - 1
-  * Description
-    * A strong Unit capable of moving onto Plains and Forest Tiles. Cannot Seize an enemy's Headquarters.
-  * Squad size - 3
+### Movement/Exploration
+* _Tiles_ are placed upside-down across the field, so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
+* Tile Reveal happens when you move a unit into “unknown terrain” i.e. move them into fog of war
+* Tile Reveal consists of flipping a Tile that was previously unknown terrain.
+* One must first declare their intent to move in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the moving Unit can move onto the new tile, it does so. If not, the Unit goes into a Stunned state for a turn, and does not move.
+* A given Squadron of units can reveal at most one tile per turn.
 
-### Tiles
-* Tile Effects
- * When this Unit is on a given tile, it experiences the following effect
-
-
- | Tile     | Effect                                  |
- | :------- | :-------------------------------------- |
- |  Plains  |  No Effect                              |
- |  Forest  | +1 Defense to squad as a whole          |
- | Mountains| +1 Attack +1 Defense to squad as a whole|
-
-
-### Tile Placement
-* _Tiles_ are stored in a stack, upside-down so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
-* Tile Placement happens when you move a unit into “unknown terrain” i.e. move them into fog of war
-* Tile placement consists of grabbing a Tile from the Tile Stack
-* Tile stack, and placing it where one intends to move. One must first declare their intent to move in a given direction, at which point a Terrain Tile is drawn and placed at that location. If the moving Unit can move onto the new tile, it does so. If not, the Unit goes into a Stunned state for a turn, and does not move.
-* A given Unit can reveal at most one tile per turn.
-
-### Turn Order
-1. Move Unit(s) (if not impeded)
-2. Reveal Tile (If Unit in fog)
-3. Attack (if there is another Unit on the Tile being moved to)
+### Turn Actions
+* Each Unit gets one Action
+* An Action consists of either a move or an attack
+* Units can move or attack in groups. No more than one full squad can move/attack at a time.
+* Units can also choose not to use their Action this turn.
+* Once all Units have expended their actions or chosen not to use them, the turn is over.
 
 ### Battle
 * Battle occurs when one Unit declares an attack on an adjacent Unit owned by the other player.
@@ -66,3 +42,35 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 | 20    |    +4    |
 1. Each player rolls a d20. Each player gets a modifier according to the result of their roll. See the table above for modifiers.
   * The attacking player rolls for an attack boost, whilst the defending player rolls for a defense boost.
+2. Calculate total unit attack + tile attack modifier (if any) + roll attack modifier for the attacking player
+3. Calculate total unit defense + tile defense modifier (if any) + roll defense modifier for the defending player
+4. If total attack > total defense, the defending player loses the difference in units
+5. If total defense >= total attack, the attacking player remains in their current location and is impeded
+
+
+### Tiles
+* Tile Effects
+ * When this Unit is on a given tile, it experiences the following effect
+
+
+ | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
+ | :------- | :-------------------------------------- | :----------------                                 |
+ |  Plains  |  No Effect                              | No Effect                                         |
+ |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded |
+ | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs return to previous position and are impeded |
+ | Headquarters     |  No Unit Limit on turn 1                | If enemy Headquarters, Unit is impeded                    |
+* Tiles can hold at most one squad of Infantry, or one squad of Mechs unless otherwise stated.
+
+### Units
+* __Infantry__
+  * Attack - 1
+  * Defense - 1
+  * Description
+    * A mobile Unit capable of moving on any Tile. Can Seize an enemy's Headquarters.
+  * Squad size - 5
+* __Mech__
+  * Attack - 2
+  * Defense - 1
+  * Description
+    * A strong Unit capable of moving onto Plains and Forest Tiles. Cannot Seize an enemy's Headquarters.
+  * Squad size - 3
