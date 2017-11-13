@@ -21,7 +21,7 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 * Tile Reveal happens when you move a unit into “unknown terrain” i.e. move them into fog of war
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a unit, or squad of units, in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the moving unit(s) can move onto the new tile, it does so. If not, the unit goes into the _impeded_ state for a turn, and does not move.
-* All units can only move one unit per tern.
+* All units can only move one tile per turn.
 
 ### Turn Actions
 * Each Unit gets one Action
