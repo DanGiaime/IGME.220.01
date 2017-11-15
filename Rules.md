@@ -34,30 +34,30 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 
 Combat occurs when a player's unit attempts to move onto a tile owned by another player.
 
-Each unit type has a specific attack and defence value:
+Each unit type has a specific attack and defense  value:
 
 | Infantry   | Value  |
 | :--------- | :----- |
 | vs. Rocket | 3 atk. |
 | vs. Mech   | 2 atk. |
-| Defence    | 1      |
+| Defense     | 1      |
 
 | Rocket | Value  |
 | :--------- | :----- |
 | vs. Mech | 3 atk. |
 | vs. Infantry | 2 atk. |
-| Defence    | 1      |
+| Defense     | 1      |
 
 |  Mech  | Value  |
 | :--------- | :----- |
 | vs. Infantry | 4 atk. |
 | vs. Rocket  | 2 atk. |
-| Defence    | 1      |
+| Defense     | 1      |
 
 Combat happens in two stages:
 
-1. Subtract the defending squad's defence value from the attacking squad's attack value (including any tile modifiers). Remove a number of units equal to the resulting value from the defending squad.
-2. If the defending squad has any remaining units, subtract the attacking squad's defence value from the defending squad's attack value (including any tile modifiers). Remove a number of units equal to the resulting value from the defending squad.
+1. Subtract the defending squad's defense  value from the attacking squad's attack value (including any tile modifiers). Remove a number of units equal to the resulting value from the defending squad.
+2. If the defending squad has any remaining units, subtract the attacking squad's defense  value from the defending squad's attack value (including any tile modifiers). Remove a number of units equal to the resulting value from the defending squad.
 
 For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not have any tile modifiers:
 1. 4 atk. - 1 def = 3 defending infantry lost
@@ -65,7 +65,7 @@ For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not
 
 ### Tiles
 
-Tiles may only have one squad on them at any time. Some tiles have attack or defence bonuses. Tiles may also impede or prevent movement for some units.
+Tiles may only have one squad on them at any time. Some tiles have attack or defense  bonuses. Tiles may also impede or prevent movement for some units.
 
  | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
  | :------- | :-------------------------------------- | :----------------                                 |
