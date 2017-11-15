@@ -12,8 +12,8 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 * Place all squads onto the Headquarters tile.
   * Starting squads
     * Infantry - 6 units
-    * Rocket - 6 units
-    * Mech - 3 units
+    * Rocketeer - 6 units
+    * Mech - 4 units
 * Deciding who goes first
   * Play a round of _Rock, Paper, Scissors_. The winning player goes first.
 
@@ -34,34 +34,36 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 
 Combat occurs when a player's unit attempts to move onto a tile owned by another player.
 
-Each unit type has a specific attack and defense  value:
+Each unit type has a specific attack value:
 
 | Infantry   | Value  |
 | :--------- | :----- |
-| vs. Rocket | 3 atk. |
+| vs. Infantry | 1 atk. |
+| vs. Rocketeer | 3 atk. |
 | vs. Mech   | 2 atk. |
-| Defense     | 1      |
 
-| Rocket | Value  |
+| Rocketeer | Value  |
 | :--------- | :----- |
+| vs. Rocketeer  | 1 atk. |
 | vs. Mech | 3 atk. |
 | vs. Infantry | 2 atk. |
-| Defense     | 1      |
 
 |  Mech  | Value  |
 | :--------- | :----- |
+| vs. Mech | 1 atk. |
 | vs. Infantry | 4 atk. |
-| vs. Rocket  | 2 atk. |
-| Defense     | 1      |
+| vs. Rocketeer  | 2 atk. |
+
 
 Combat happens in two stages:
 
-1. Subtract the defending squad's defense  value from the attacking squad's attack value (including any tile modifiers). Remove a number of units equal to the resulting value from the defending squad.
-2. If the defending squad has any remaining units, subtract the attacking squad's defense  value from the defending squad's attack value (including any tile modifiers). Remove a number of units equal to the resulting value from the defending squad.
+1. The attacking unity adds its attack value, to the _tiles_ bonus values.
+2. The defending unit adds its attack value to the _tiles_ bonus
+3.
 
 For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not have any tile modifiers:
-1. 4 atk. - 1 def = 3 defending infantry lost
-2. 2 atk. - 1 def = 1 attacking mech lost
+1. 3 atk. + 1 mountain = 4 defending infantry lost
+2. 2 atk. - 1 defending forest = 1 defending mech lost
 
 ### Tiles
 
