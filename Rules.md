@@ -24,6 +24,32 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
 * Each squad can only move one tile per turn.
 
+### Tiles
+
+Tiles may only have one squad on them at any time. Some tiles have attack or defence bonuses. Tiles may also impede or prevent movement for some units.
+
+ | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
+ | :------- | :-------------------------------------- | :----------------                                 |
+ |  Plains  |  No Effect                              | No Effect                                         |
+ |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded for the next turn |
+ | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs can not move onto mountains |
+ | Headquarters     |  No squad Limit on turn 1                | If opponent Headquarters, squad is impeded                    |
+ 
+#### Tile Bonuses
+
+Some tiles offer a Tile Bonus to the first player to move on to that tile. Immediately upon moving onto a tile that offers a Tile Bonus, draw a card from the Tile Bonus Card Deck and apply it's effect accordingly. All effects are applied to the squad (and it's type of unit) that claims the bonus.
+
+Though the cards themselves relate their effects, another reference is provided here:
+
+| Bonus | Effect |
+| :---- | :----- |
+| Survivors Found | +2 Infantry/Rockets OR +1 Mech |
+| Lucky Straggler | +1 Infantry/Rocket |
+| Superior Positioning | Advantage (roll die twice, use higher number) on next Combat Roll |
+| Fortifications | This tile provides an additional +1 Defence AND +1 Attack until the squad moves |
+| Artillary Strike | Ability to attack one enemy squad, regardless of position on the map, **once** |
+| Reinforcements | Choice of: 3 Infantry, 3 Rockets, OR 2 Mechs appear at your HQ |
+
 ### Turn Actions
 * Each squad gets one action
 * An action consists of either a move, an attack, or resetting that unit's _impeded_ state.
@@ -62,17 +88,6 @@ Combat happens in two stages:
 For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not have any tile modifiers:
 1. 4 atk. - 1 def = 3 defending infantry lost
 2. 2 atk. - 1 def = 1 attacking mech lost
-
-### Tiles
-
-Tiles may only have one squad on them at any time. Some tiles have attack or defence bonuses. Tiles may also impede or prevent movement for some units.
-
- | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
- | :------- | :-------------------------------------- | :----------------                                 |
- |  Plains  |  No Effect                              | No Effect                                         |
- |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded for the next turn |
- | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs can not move onto mountains |
- | Headquarters     |  No squad Limit on turn 1                | If opponent Headquarters, squad is impeded                    |
 
  ### Capturing your opponent's HQ
 
