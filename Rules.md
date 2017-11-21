@@ -34,7 +34,7 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 
 Combat occurs when a player's unit attempts to move onto a tile owned by another player.
 
-Each unit type has a specific attack value:
+Each unit type has a specific attack value depending on the unit type it is attacking:
 
 | Infantry   | Value  |
 | :--------- | :----- |
@@ -59,7 +59,6 @@ Combat happens in two stages:
 
 1. The attacking unity adds its attack value, to the _tiles_ bonus values.
 2. The defending unit adds its attack value to the _tiles_ bonus
-3.
 
 For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not have any tile modifiers:
 1. 3 atk. + 1 mountain = 4 defending infantry lost
