@@ -36,11 +36,11 @@ Combat occurs when a player's unit declares an attack on an enemy tile within th
 
 Each unit type has different attack damages and ranges:
 
-| Unit | Damage | Range |
-| :--------- | :----- |
-| Infantry | 2 | 0 tiles |
-| Rocketeer | 4 | 1-2 tiles |
-| Mech   | 3 | 0-1 tiles |
+| Unit 		| Damage | Range 	|
+| :-------- | :----- | :------- |
+| Infantry 	| 2 	 | 0 tiles 	|
+| Rocketeer | 4 	 | 1-2 tiles|
+| Mech   	| 3 	 | 0-1 tiles|
 
 When the attack is declared:
 
@@ -77,10 +77,11 @@ To destroy your opponent's Headquarters, your units must attack the Headquarters
 	* 6 Mountains
 * Balance Notes:
 	* Rocketeers are extremely powerful when in mountains.
-	* Infantry are exceptional at scouting the map and dealing with Rocketeers.
+	* Infantry are exceptional at scouting the map and dealing with Rocketeers, even when in mountains.
 	* Infantry are also good at nullifying enemy infantry if you were to get an advantageous position for your Rocketeer.
 	* Tanks are good at zoning Infantry, chunking down units from reckless Infantry, and preventing movement of more cautious ones.
 	* Because you can damage the Headquarters at a distance, Rocketeers in mountains are less likely to prevent enemy rocketeers from hitting the HQ, which prevents rocketeers from only sitting in mountains.
+	* The game feels very tense, as infantry can you
 * Fun Notes:
 	* Reactive effects like increased damage on counter-attacks need other mechanics to work, for their activation relies on the enemy, and a strategically-sound enemy will only trigger such abilities when the value they will provide to their player becomes meaningless.
 	* For example, if you were to have Infantry have an ability that allowed them to counter-attack, with extra damage for each tile they're away from their enemies, it would create a situation were rocketeers cannot deal with infantry until they can kill them before the counter-attack, rendering the ability meaningless.
