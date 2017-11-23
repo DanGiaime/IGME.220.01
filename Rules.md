@@ -11,8 +11,8 @@ The game has 37 total tiles:
 * **2** Headquarters tiles, one per player
 * **35** Land tiles
   * **15** Planes tiles
-	* **10** Mountain tiles
-	* **10** Forest tiles
+  * **10** Mountain tiles
+  * **10** Forest tiles
 
 ### Win Conditions
 * Rout - Defeat all of your opponent's units in combat.
