@@ -1,6 +1,19 @@
 ### What is Hexstrat?
 Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of the 3x3x3 hexagonal map, and work their way across the hidden midfield--revealing tiles as they go--in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
 
+### Game Pieces
+#### Units
+* **12** Infantry units, 6 per player
+* **12** Rocketeer units, 6 per player
+* **8** Mech units, 4 per player
+#### Tiles
+The game has 37 total tiles:
+* **2** Headquarters tiles, one per player
+* **35** Land tiles
+  * **15** Planes tiles
+	* **10** Mountain tiles
+	* **10** Forest tiles
+
 ### Win Conditions
 * Rout - Defeat all of your opponent's units in combat.
 * Seize - Capture your opponent's Headquarters.
