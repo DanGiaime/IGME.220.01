@@ -30,6 +30,18 @@ The game has 37 total tiles:
 * Deciding who goes first
   * Play a round of _Rock, Paper, Scissors_. The winning player goes first.
 
+### Tiles
+
+Tiles may only have one squad on them at any time. Some tiles have attack or defense  bonuses. Tiles may also impede or prevent movement for some units.
+
+ | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
+ | :------- | :-------------------------------------- | :----------------                                 |
+ |  Plains  |  No Effect                              | No Effect                                         |
+ |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded for the next turn |
+ | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs can not move onto mountains |
+ | Headquarters     |  No squad Limit on turn 1                | If opponent Headquarters, squad is impeded                    |
+
+
 ### Movement/Exploration
 * _Tiles_ are placed upside-down across the field, so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
 * Tile Reveal happens when you move a squad into “unknown terrain” i.e. move them into fog of war
@@ -72,23 +84,11 @@ Combat happens in two stages:
 
 1. The attacking unity adds its attack value, to the _tiles_ bonus values.
 2. The defending unit adds its attack value to the _tiles_ bonus
-3.
 
 For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not have any tile modifiers:
 1. 3 atk. + 1 mountain = 4 defending infantry lost
 2. 2 atk. - 1 defending forest = 1 defending mech lost
 
-### Tiles
-
-Tiles may only have one squad on them at any time. Some tiles have attack or defense  bonuses. Tiles may also impede or prevent movement for some units.
-
- | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
- | :------- | :-------------------------------------- | :----------------                                 |
- |  Plains  |  No Effect                              | No Effect                                         |
- |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded for the next turn |
- | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs can not move onto mountains |
- | Headquarters     |  No squad Limit on turn 1                | If opponent Headquarters, squad is impeded                    |
-
- ### Capturing your opponent's HQ
+### Capturing your opponent's HQ
 
 To capture your opponent's Headquarters, your infantry must occupy their Headquarters tile for 3 consecuative turns (including the turn they move onto the tile). On the third turn, the Headquarters is captured, and you win!
