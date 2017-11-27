@@ -59,7 +59,7 @@ Tiles may only have one squad on them at any time. Some tiles have attack or def
 
 Combat occurs when a player's unit attempts to move onto a tile owned by another player.
 
-Each unit type has a specific attack value:
+Each unit type has a specific attack value depending on the unit type it is attacking:
 
 | Infantry   | Value  |
 | :--------- | :----- |
