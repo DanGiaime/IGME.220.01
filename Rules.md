@@ -10,7 +10,7 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 The game has 37 total tiles:
 * **2** Headquarters tiles, one per player
 * **35** Land tiles
-  * **15** Planes tiles
+  * **15** Plains tiles
   * **10** Mountain tiles
   * **10** Forest tiles
 
