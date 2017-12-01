@@ -49,7 +49,7 @@ Tiles may only have one squad on them at any time. Some tiles have attack or def
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
 * Each squad can only move one tile per turn.
  
-#### Tile Bonuses
+### Tile Bonuses
 
 Some tiles offer a Tile Bonus to the first player to move on to that tile. Immediately upon moving onto a tile that offers a Tile Bonus, draw a card from the Tile Bonus Card Deck to your hand. Unless otherwise specified, you may play a Tile Bonus Card on any of your turns. You may only use one Tile Bonus Card per turn.
 
