@@ -3,11 +3,11 @@
 
 | Bonus | Effect |
 | :---- | :----- |
-| Survivors Found | You discovered some survivors! +2 Infantry/Rockets OR +1 Mech. Apply this effect immediately. |
-| Artillary Strike | You strike from a distance. Pick any enemy unit to take one health away from |
-| Scout | You deploy a scouting mission. Reveal two adjacent tiles of your choice |
-| Extra Ammo | Once during combat, you may attack twice |
-| Boost (aka *Haul Ass*) | Move twice |
+| Survivors Found | You discovered some survivors! **+2 Infantry/Rockets OR +1 Mech.** *Apply this effect immediately.* |
+| Artillary Strike | You strike from a distance. **Pick any enemy squad to take one health away from.** |
+| Extra Ammo | **Once during combat, you may attack twice.** |
+| Boost (aka *Haul Ass*) | **Move one squad twice in one turn.** |
+| Scout | You deploy a scouting mission. **Reveal two adjacent tiles of your choice.** |
 
 ### Not-In-Use
 *Not currently in the game, feel free to brainstorm here:*
