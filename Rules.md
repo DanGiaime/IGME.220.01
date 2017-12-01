@@ -62,18 +62,17 @@ Tiles may only have one squad on them at any time. Some tiles have attack or def
  
 #### Tile Bonuses
 
-Some tiles offer a Tile Bonus to the first player to move on to that tile. Immediately upon moving onto a tile that offers a Tile Bonus, draw a card from the Tile Bonus Card Deck and apply it's effect accordingly. All effects are applied to the squad (and it's type of unit) that claims the bonus.
+Some tiles offer a Tile Bonus to the first player to move on to that tile. Immediately upon moving onto a tile that offers a Tile Bonus, draw a card from the Tile Bonus Card Deck to your hand. Unless otherwise specified, you may play a Tile Bonus Card on any of your turns. You may only use one Tile Bonus Card per turn.
 
-Though the cards themselves relate their effects, another reference is provided here:
+Though the cards themselves specify their effects, another reference is provided here:
 
 | Bonus | Effect |
 | :---- | :----- |
-| Survivors Found | +2 Infantry/Rockets OR +1 Mech |
-| Lucky Straggler | +1 Infantry/Rocket |
-| Superior Positioning | Advantage (roll die twice, use higher number) on next Combat Roll |
-| Fortifications | This tile provides an additional +1 Defence AND +1 Attack until the squad moves |
-| Artillary Strike | Ability to attack one enemy squad, regardless of position on the map, **once** |
-| Reinforcements | Choice of: 3 Infantry, 3 Rockets, OR 2 Mechs appear at your HQ |
+| Survivors Found | You discovered some survivors! **+2 Infantry/Rockets OR +1 Mech.** *Apply this effect immediately.* |
+| Artillary Strike | You strike from a distance. **Pick any enemy squad to take one health away from.** |
+| Extra Ammo | **Once during combat, you may attack twice.** |
+| Boost (aka H A U L   A S S) | **Move one squad twice in one turn.** |
+| Scout | You deploy a scouting mission. **Reveal two adjacent tiles of your choice.** |
 
 ### Turn Actions
 * Each squad gets one action
