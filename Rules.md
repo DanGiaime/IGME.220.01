@@ -1,6 +1,19 @@
 ### What is Hexstrat?
 Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of the 3x3x3 hexagonal map, and work their way across the hidden midfield--revealing tiles as they go--in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
 
+### Game Pieces
+#### Units
+* **12** Infantry units, 6 per player
+* **12** Rocketeer units, 6 per player
+* **8** Mech units, 4 per player
+#### Tiles
+The game has 37 total tiles:
+* **2** Headquarters tiles, one per player
+* **35** Land tiles
+  * **15** Plains tiles
+  * **10** Mountain tiles
+  * **10** Forest tiles
+
 ### Win Conditions
 * Rout - Defeat all of your opponent's units in combat.
 * Seize - Capture your opponent's Headquarters.
@@ -12,10 +25,22 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
 * Place all squads onto the Headquarters tile.
   * Starting squads
     * Infantry - 6 units
-    * Rocket - 6 units
-    * Mech - 3 units
+    * Rocketeer - 6 units
+    * Mech - 4 units
 * Deciding who goes first
   * Play a round of _Rock, Paper, Scissors_. The winning player goes first.
+
+### Tiles
+
+Tiles may only have one squad on them at any time. Some tiles have attack or defense  bonuses. Tiles may also impede or prevent movement for some units.
+
+ | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
+ | :------- | :-------------------------------------- | :----------------                                 |
+ |  Plains  |  No Effect                              | No Effect                                         |
+ |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded for the next turn |
+ | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs can not move onto mountains |
+ | Headquarters     |  No squad Limit on turn 1                | If opponent Headquarters, squad is impeded                    |
+
 
 ### Movement/Exploration
 * _Tiles_ are placed upside-down across the field, so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
@@ -60,30 +85,31 @@ Though the cards themselves relate their effects, another reference is provided 
 
 Combat occurs when a player's unit attempts to move onto a tile owned by another player.
 
-Each unit type has a specific attack and defence value:
+Each unit type has a specific attack value depending on the unit type it is attacking:
 
 | Infantry   | Value  |
 | :--------- | :----- |
-| vs. Rocket | 3 atk. |
+| vs. Infantry | 1 atk. |
+| vs. Rocketeer | 3 atk. |
 | vs. Mech   | 2 atk. |
-| Defence    | 1      |
 
-| Rocket | Value  |
+| Rocketeer | Value  |
 | :--------- | :----- |
+| vs. Rocketeer  | 1 atk. |
 | vs. Mech | 3 atk. |
 | vs. Infantry | 2 atk. |
-| Defence    | 1      |
 
 |  Mech  | Value  |
 | :--------- | :----- |
+| vs. Mech | 1 atk. |
 | vs. Infantry | 4 atk. |
-| vs. Rocket  | 2 atk. |
-| Defence    | 1      |
+| vs. Rocketeer  | 2 atk. |
+
 
 Combat happens in two stages:
 
-1. Subtract the defending squad's defence value from the attacking squad's attack value (including any tile modifiers). Remove a number of units equal to the resulting value from the defending squad.
-2. If the defending squad has any remaining units, subtract the attacking squad's defence value from the defending squad's attack value (including any tile modifiers). Remove a number of units equal to the resulting value from the defending squad.
+1. The attacking unity adds its attack value, to the _tiles_ bonus values.
+2. The defending unit adds its attack value to the _tiles_ bonus
 
 For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not have any tile modifiers:
 1. 4 atk. - 1 def = 3 defending infantry lost
