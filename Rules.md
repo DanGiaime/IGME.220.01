@@ -48,17 +48,6 @@ Tiles may only have one squad on them at any time. Some tiles have attack or def
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
 * Each squad can only move one tile per turn.
-
-### Tiles
-
-Tiles may only have one squad on them at any time. Some tiles have attack or defence bonuses. Tiles may also impede or prevent movement for some units.
-
- | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
- | :------- | :-------------------------------------- | :----------------                                 |
- |  Plains  |  No Effect                              | No Effect                                         |
- |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded for the next turn |
- | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs can not move onto mountains |
- | Headquarters     |  No squad Limit on turn 1                | If opponent Headquarters, squad is impeded                    |
  
 #### Tile Bonuses
 
@@ -78,6 +67,7 @@ Though the cards themselves specify their effects, another reference is provided
 * Each squad gets one action
 * An action consists of either a move, an attack, or resetting that unit's _impeded_ state.
 * Squads can also choose not to perform any action on their turn.
+* Players may play one Tile Bonus Card.
 * Once all of a player's squads have expended their actions, or chosen not to perform any actions, the turn is over.
 
 ### Combat
