@@ -34,6 +34,19 @@ The game has 37 total tiles:
 
 Play a round of _Rock, Paper, Scissors_. The winning player goes first.
 
+### Turn Actions
+
+On their turn, players may perform one action for each of their _unimpeded_ squads:
+
+* **Move** - Your squad attempts to move to an adjacent tile. If the tile has not been revealed yet, reveal the tile, then move the squad. If the squad may not move to the tile (i.e. Mech moving to a Mountain tile), the squad remains on the current tile, and may not perform another action. (See "Movement/Exploration")
+* **Attack** - If one of your opponent's squads is on an adjacent tile, you may enter into combat by attacking that tile. (See "Combat")
+* **Deimpede** - If your squad is in the _impeded_ state, they must perform the deimpede action before they may perform any other actions.
+* **Wait** - Do nothing this turn.
+
+On their turn, players may also play one Tile Bonus Card, unless stated otherwise.
+
+Once all of a player's squads have expended their actions, or chosen not to perform any actions, the turn is over.
+
 ### Tiles
 
 Tiles may only have one squad on them at any time. Some tiles have attack or defense  bonuses. Tiles may also impede or prevent movement for some units.
@@ -66,13 +79,6 @@ Though the cards themselves specify their effects, another reference is provided
 | Extra Ammo | **Once during combat, you may attack twice.** |
 | Boost (aka *Haul Ass*) | **Move one squad twice in one turn.** |
 | Scout | You deploy a scouting mission. **Reveal two adjacent tiles of your choice.** |
-
-### Turn Actions
-* Each squad gets one action
-* An action consists of either a move, an attack, or resetting that unit's _impeded_ state.
-* Squads can also choose not to perform any action on their turn.
-* Players may play one Tile Bonus Card.
-* Once all of a player's squads have expended their actions, or chosen not to perform any actions, the turn is over.
 
 ### Combat
 
