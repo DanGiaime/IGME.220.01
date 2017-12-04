@@ -2,12 +2,16 @@
 Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of the 3x3x3 hexagonal map, and work their way across the hidden midfield--revealing tiles as they go--in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
 
 ### Game Pieces
+
 #### Unit Markers
+
  * **2** Mech markers, one per player
  * **2** Infantry markers, one per player
  * **2** Rocketeer markers, one per player
  * **50** Squad chits
+
 #### Tiles
+
 The game has 37 total tiles:
 * **2** Headquarters tiles, one per player
 * **35** Land tiles
@@ -16,16 +20,19 @@ The game has 37 total tiles:
   * **10** Forest tiles
 
 ### Win Conditions
+
 * Rout - Defeat all of your opponent's units in combat.
 * Seize - Capture your opponent's Headquarters.
 
 ### Setup
+
 1. First, shuffle all of the land tiles.
 2. Begin by placing the two Headquarters tiles with 3 land tiles, face down, between them, and 1 land tile behind each of them.
 3. Continue to place land tiles adjacent to one another, with the middle of the tile aligned with the connecting edge of the adjacent tile. The board should form a hexagon shape when complete.
 4. Squad chits are used to keep track of the number of units in a squad. The unit marker on top of the stack of chits denotes that squad's unit type. Stack the squad chits accoridng to the unit counts below, then place their corresponding unit marker on the top of the stacks. Place these squads on your Headquarters tile.
 
 #### Starting squads
+
 * Infantry - 6 units
 * Rocketeer - 6 units
 * Mech - 4 units
@@ -47,25 +54,25 @@ On their turn, players may also play one Tile Bonus Card, unless stated otherwis
 
 Once all of a player's squads have expended their actions, or chosen not to perform any actions, the turn is over.
 
-### Tiles
-
-Tiles may only have one squad on them at any time. Some tiles have attack or defense  bonuses. Tiles may also impede or prevent movement for some units.
-
- | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
- | :------- | :-------------------------------------- | :----------------                                 |
- |  Plains  |  No Effect                              | No Effect                                         |
- |  Forest  | +1 Defense to squad as a whole          | Mechs are impeded for the next turn |
- | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs can not move onto mountains |
- | Headquarters     |  No squad Limit on turn 1                | If opponent Headquarters, squad is impeded                    |
-
-
 ### Movement/Exploration
+
 * _Tiles_ are placed upside-down across the field, so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
 * Tile Reveal happens when you move a squad into “unknown terrain” i.e. move them into fog of war
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
 * Each squad can only move one tile per turn.
  
+### Tiles
+
+Tiles may only have one squad on them at any time. Some tiles provide attack and/or defense bonues to the occupying squad. Tiles may also impede or prevent movement for some unit types.
+
+ | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
+ | :------- | :-------------------------------------- | :---------------- |
+ |  Plains  |  No Effect                              | No Effect |
+ |  Forest  | +1 Defense         | Mechs are impeded for the next turn |
+ | Mountains| +1 Attack +1 Defense | Mechs can not move onto mountains |
+ | Headquarters | | If opponent Headquarters, squad is impeded for the next turn |
+
 ### Tile Bonuses
 
 Some tiles offer a Tile Bonus to the first player to move on to that tile. Immediately upon moving onto a tile that offers a Tile Bonus, draw a card from the Tile Bonus Card Deck to your hand. Unless otherwise specified, you may play a Tile Bonus Card on any of your turns. You may only use one Tile Bonus Card per turn.
@@ -114,6 +121,6 @@ For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not
 1. 4 atk. - 1 def = 3 defending infantry lost
 2. 2 atk. - 1 def = 1 attacking mech lost
 
- ### Capturing your opponent's HQ
+### Capturing your opponent's HQ
 
 To capture your opponent's Headquarters, your infantry must occupy their Headquarters tile for 3 consecuative turns (including the turn they move onto the tile). On the third turn, the Headquarters is captured, and you win!
