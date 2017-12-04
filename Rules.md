@@ -48,11 +48,26 @@ Tiles may only have one squad on them at any time. Some tiles have attack or def
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
 * Each squad can only move one tile per turn.
+ 
+### Tile Bonuses
+
+Some tiles offer a Tile Bonus to the first player to move on to that tile. Immediately upon moving onto a tile that offers a Tile Bonus, draw a card from the Tile Bonus Card Deck to your hand. Unless otherwise specified, you may play a Tile Bonus Card on any of your turns. You may only use one Tile Bonus Card per turn.
+
+Though the cards themselves specify their effects, another reference is provided here:
+
+| Bonus | Effect |
+| :---- | :----- |
+| Survivors Found | You discovered some survivors! **+2 Infantry/Rockets OR +1 Mech.** *Apply this effect immediately.* |
+| Artillary Strike | You strike from a distance. **Pick any enemy squad to take one health away from.** |
+| Extra Ammo | **Once during combat, you may attack twice.** |
+| Boost (aka *Haul Ass*) | **Move one squad twice in one turn.** |
+| Scout | You deploy a scouting mission. **Reveal two adjacent tiles of your choice.** |
 
 ### Turn Actions
 * Each squad gets one action
 * An action consists of either a move, an attack, or resetting that unit's _impeded_ state.
 * Squads can also choose not to perform any action on their turn.
+* Players may play one Tile Bonus Card.
 * Once all of a player's squads have expended their actions, or chosen not to perform any actions, the turn is over.
 
 ### Combat
@@ -86,9 +101,9 @@ Combat happens in two stages:
 2. The defending unit adds its attack value to the _tiles_ bonus
 
 For example, if a squad of 4 mechs attack a squad of 4 infantry, and both do not have any tile modifiers:
-1. 3 atk. + 1 mountain = 4 defending infantry lost
-2. 2 atk. - 1 defending forest = 1 defending mech lost
+1. 4 atk. - 1 def = 3 defending infantry lost
+2. 2 atk. - 1 def = 1 attacking mech lost
 
-### Capturing your opponent's HQ
+ ### Capturing your opponent's HQ
 
 To capture your opponent's Headquarters, your infantry must occupy their Headquarters tile for 3 consecuative turns (including the turn they move onto the tile). On the third turn, the Headquarters is captured, and you win!
