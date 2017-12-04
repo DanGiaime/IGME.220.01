@@ -2,10 +2,11 @@
 Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of the 3x3x3 hexagonal map, and work their way across the hidden midfield--revealing tiles as they go--in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
 
 ### Game Pieces
-#### Units
-* **12** Infantry units, 6 per player
-* **12** Rocketeer units, 6 per player
-* **8** Mech units, 4 per player
+#### Unit Markers
+ * **2** Mech markers, one per player
+ * **2** Infantry markers, one per player
+ * **2** Rocketeer markers, one per player
+ * **50** Squad chits
 #### Tiles
 The game has 37 total tiles:
 * **2** Headquarters tiles, one per player
@@ -19,10 +20,10 @@ The game has 37 total tiles:
 * Seize - Capture your opponent's Headquarters.
 
 ### Setup
-* Begin by selecting the two Headquarters tiles(bright green), and placing them exactly 3 tiles-length apart.
-* Place all world tiles onto the field randomly upside-down, so that the logo is not visible.
-  * Begin by placing the 3 upside-down tiles between the two Headquarters. Then, build outwards equally on both sides until all tiles have been placed, and a hexagon shape is achieved. The Headquarters should be at opposing corners of the hexagonal map.
-* Place all squads onto the Headquarters tile.
+* First, shuffle all of the land tiles.
+* Begin by placing the two Headquarters tiles with 3 land tiles, face down, between them, and 1 land tile behind each of them.
+* Continue to place land tiles adjacent to one another, with the middle of the tile aligned with the connecting edge of the adjacent tile. The board should form a hexagon shape when complete.
+* Squad chits are used to keep track of the number of units in a squad. The unit marker on top of the stack of chits denotes that squad's unit type. Stack the squad chits accoridng to the unit counts below, then place their corresponding unit marker on the top of the stacks. Place these squads on your Headquarters tile.
   * Starting squads
     * Infantry - 6 units
     * Rocketeer - 6 units
