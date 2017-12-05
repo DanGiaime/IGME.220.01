@@ -104,7 +104,7 @@ A squad's HP is equal to the number of units in the squad. During battle, a squa
 
 ###### DEF
 
-All squads default to 0 DEF, and can only gain DEF via Tile/Card Bonuses. When a squad would take any amount of damage, it will first subtract its DEF from this damage before taking it. For example, if a squad were to take 3 damage, but the squad has 1 DEF, the squad will take 3 - 1 = 2 damage instead.
+DEF is only applied when the defending squad is on a tile with a DEF bonus (i.e. +1 DEF). During combat, DEF is subtracted from the attacking squad's ATK to determine damage.
 
 ###### ATK
 
