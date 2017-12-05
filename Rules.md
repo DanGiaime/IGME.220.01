@@ -33,9 +33,12 @@ The game has 37 total tiles:
 
 #### Starting squads
 
-* Infantry - 6 units
-* Rocketeer - 6 units
-* Mech - 4 units
+* Squad Sizes
+  * Infantry - 6 units
+  * Rocketeer - 6 units
+  * Mech - 4 units
+* Squad Movement
+  * All units in a squad will move at the same time, in the same direction. The stack cannot be split.  
 
 ### Deciding who goes first
 
@@ -61,18 +64,18 @@ Once all of a player's squads have expended their actions, or chosen not to perf
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
 * Each squad can only move one tile per turn.
-* __Impeded__ - Some actions may cause a squad to become impeded. After becoming impeded, the only action that squad may take is to resolve its impeded state. While impeded, the squad still retaliates if attacked.
+* __Impeded__ - Some actions may cause a squad to become impeded. After becoming impeded, the only action that squad may take is to resolve its impeded state. While impeded, the squad still retaliates if attacked. The impeded state is represented by placing the corresponding squad marker next to the stack for the duration of the impeded state.
 
 
 ### Tiles
 
-Tiles may only have one squad on them at any time. Some tiles provide attack and/or defense bonues to the occupying squad. Tiles may also impede or prevent movement for some unit types.
+Tiles may only have one squad on them at any time. Some tiles provide ATK and/or DEF bonuses to the occupying squad. Tiles may also impede or prevent movement for some unit types.
 
  | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
  | :------- | :-------------------------------------- | :---------------- |
  |  Plains  |  No Effect                              | No Effect |
- |  Forest  | +1 Defense         | Mechs are impeded for the next turn |
- | Mountains| +1 Attack +1 Defense | Mechs can not move onto mountains |
+ |  Forest  | +1 DEF         | Mechs are impeded for the next turn |
+ | Mountains| +1 ATK +1 DEF | Mechs can not move onto mountains |
  | Headquarters | | If opponent Headquarters, squad is impeded for the next turn |
 
 ### Tile Bonuses
@@ -132,8 +135,8 @@ Each unit type has a specific ATK value depending on the unit type it is attacki
 
 Combat happens in two stages:
 
-1. The attacking squad adds its attack value to the _tiles_ bonus values and deals that much damage to the defending squad.
-2. The defending squad, __if still alive__, adds its attack value to the _tiles_ bonus and deals that much damage to the attacking squad.
+1. The attacking squad adds its ATK value to the _tiles_ bonus values and deals that much damage to the defending squad.
+2. The defending squad, __if still alive__, adds its ATK value to the _tiles_ bonus and deals that much damage to the attacking squad.
 
 For example, if a squad of 4 mechs attack a squad of 2 infantry, and both do not have any tile modifiers:
 
