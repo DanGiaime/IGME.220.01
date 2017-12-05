@@ -94,6 +94,7 @@ All squads default to 0 DEF, and can only gain DEF via Tile/Card Bonuses. When a
 
 ###### ATK
 
+ATK is determined based on which unit-type attacks which unit type. The number of units in a squad has no effect on damage dealt.
 Each unit type has a specific ATK value depending on the unit type it is attacking:
 
 
@@ -128,7 +129,7 @@ For example, if a squad of 4 mechs attack a squad of 2 infantry, and both do not
 1. 4 ATK = 4 defending infantry lost
 2. 2 ATK = 2 attacking mech lost
 
-If a squad of 4 mechs attack a squad of 4 infantry, and the infantry are on the mountains:
+If a squad of 2 mechs attack a squad of 4 infantry, and the infantry are on the mountains:
 
 1. 4 ATK - 1 DEF = 3 defending infantry lost
 2. 2 ATK + 1 ATK = 3 attacking mech lost
