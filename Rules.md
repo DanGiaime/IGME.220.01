@@ -1,5 +1,5 @@
 ### What is Hexstrat?
-Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of a 5x5x5 hexagonal map, and work their way across the hidden midfield _revealing tiles as they go_ in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
+Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of a 5x5x5 hexagonal map, and work their way across the hidden midfield --revealing tiles as they go-- in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
 
 ### Game Pieces
 
@@ -26,7 +26,7 @@ The game has 37 total tiles:
 
 ### Setup
 
-1. First, shuffle all of the land tiles and bonus cards.
+1. First, shuffle all of the land tiles and bonus cards into separate piles.
 2. Begin by placing the two Headquarters tiles with 3 land tiles, face down, between them, and 1 land tile behind each of them.
 3. Continue to place land tiles adjacent to one another, with the middle of the tile aligned with the connecting edge of the adjacent tile. The board should form a hexagon shape when complete.
 4. Squad chits are used to keep track of the number of units in a squad. The unit marker on top of the stack of chits denotes that squad's unit type. Stack the squad chits according to the unit counts below, then place their corresponding unit marker on the top of the stacks. Place these squads on your Headquarters tile.
