@@ -145,8 +145,8 @@ For example, if a squad of 4 mechs attack a squad of 2 infantry, and both do not
 
 If a squad of 2 mechs attack a squad of 4 infantry, and the infantry are on the mountains:
 
-1. 4 ATK - 1 DEF = 3 defending infantry lost
-2. 2 ATK + 1 ATK = 3 attacking mech lost
+1. 4 ATK - 1 DEF (from tile bonus) = 3 defending infantry lost
+2. 2 ATK + 1 ATK (from tile bonus) = 3 attacking mech lost
 
 ### Capturing your opponent's HQ
 
