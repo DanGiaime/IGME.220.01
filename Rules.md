@@ -94,7 +94,7 @@ Though the cards themselves specify their effects, another reference is provided
 
 ### Combat
 
-Combat occurs when a player's unit attempts to move onto a tile owned by another player, or a player declares an attack on an adjacent enemy unit. Combat can be declared regardless of movement capability.
+Combat occurs when a player's squad attempts to move onto a tile owned by another player, or a player declares an attack on an adjacent enemy unit. Combat can be declared regardless of movement capability.
 
 Squads have 3 stats used in battle - __HP__, __DEF__, and __ATK__.
 
