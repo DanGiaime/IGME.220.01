@@ -27,7 +27,7 @@ The game has 37 total tiles:
 ### Setup
 
 1. First, shuffle all of the land tiles.
-2. Begin by placing the two Headquarters tiles with 5 land tiles, face down, between them, and 1 land tile behind each of them.
+2. Begin by placing the two Headquarters tiles with 3 land tiles, face down, between them, and 1 land tile behind each of them.
 3. Continue to place land tiles adjacent to one another, with the middle of the tile aligned with the connecting edge of the adjacent tile. The board should form a hexagon shape when complete.
 4. Squad chits are used to keep track of the number of units in a squad. The unit marker on top of the stack of chits denotes that squad's unit type. Stack the squad chits according to the unit counts below, then place their corresponding unit marker on the top of the stacks. Place these squads on your Headquarters tile.
 
