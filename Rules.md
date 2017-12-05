@@ -8,7 +8,7 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
  * **2** Mech markers, one per player
  * **2** Infantry markers, one per player
  * **2** Rocketeer markers, one per player
- * **50** Squad chits
+ * **50** Squad chits, 25 per player
 
 #### Tiles
 
@@ -26,12 +26,12 @@ The game has 37 total tiles:
 
 ### Setup
 
-1. First, shuffle all of the land tiles.
+1. First, shuffle all of the land tiles and bonus cards into separate piles.
 2. Begin by placing the two Headquarters tiles with 3 land tiles, face down, between them, and 1 land tile behind each of them.
 3. Continue to place land tiles adjacent to one another, with the middle of the tile aligned with the connecting edge of the adjacent tile. The board should form a hexagon shape when complete.
 4. Squad chits are used to keep track of the number of units in a squad. The unit marker on top of the stack of chits denotes that squad's unit type. Stack the squad chits according to the unit counts below, then place their corresponding unit marker on the top of the stacks. Place these squads on your Headquarters tile.
 
-#### Starting squads
+#### Starting Squads
 
 * Squad Sizes
   * Infantry - 6 units
@@ -63,7 +63,7 @@ Once all of a player's squads have expended their actions, or chosen not to perf
 * Tile Reveal happens when you move a squad into “unknown terrain” i.e. move them into fog of war
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
-* Each squad can only move one tile per turn.
+* Each squad can only move one tile per turn, unless modified by a bonus tile card.
 * __Impeded__ - Some actions may cause a squad to become impeded. After becoming impeded, the only action that squad may take is to resolve its impeded state. While impeded, the squad still retaliates if attacked. The impeded state is represented by placing the corresponding squad marker next to the stack for the duration of the impeded state.
 
 
@@ -76,7 +76,7 @@ Tiles may only have one squad on them at any time. Some tiles provide ATK and/or
  |  Plains  |  No Effect                              | No Effect |
  |  Forest  | +1 DEF         | Mechs are impeded for the next turn |
  | Mountains| +1 ATK +1 DEF | Mechs can not move onto mountains |
- | Headquarters | | If opponent Headquarters, squad is impeded for the next turn |
+ | Headquarters | No Effect | If opponent Headquarters, squad is impeded for the next turn |
 
 ### Tile Bonuses
 
@@ -88,8 +88,8 @@ Though the cards themselves specify their effects, another reference is provided
 | :---- | :----- |
 | Survivors Found | You discovered some survivors! **+2 Infantry/Rockets OR +1 Mech.** (Whichever unit type discovered bonus). *Apply this effect immediately.* |
 | Artillery Strike | You strike from a distance. **Pick any enemy squad to take one health away from.** |
-| Extra Ammo | **Once during combat, you may attack twice.** |
-| Boost (aka *Haul Ass*) | **Move one squad twice in one turn.** |
+| Extra Ammo | You came across some extra supplies.  **Once during combat, you may attack twice.** |
+| Boost (aka *Haul Ass*) | There was extra coffee this morning. **Move one squad twice in one turn.** |
 | Scout | You deploy a scouting mission. **Reveal two adjacent tiles of your choice.** |
 
 ### Combat
