@@ -8,7 +8,7 @@ Hexstrat is a 2-player turn-based strategy combat game. Players start with their
  * **2** Mech markers, one per player
  * **2** Infantry markers, one per player
  * **2** Rocketeer markers, one per player
- * **50** Squad chits
+ * **50** Squad chits, 25 per player
 
 #### Tiles
 
