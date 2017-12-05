@@ -89,7 +89,7 @@ Though the cards themselves specify their effects, another reference is provided
 | Survivors Found | You discovered some survivors! **+2 Infantry/Rockets OR +1 Mech.** (Whichever unit type discovered bonus). *Apply this effect immediately.* |
 | Artillery Strike | You strike from a distance. **Pick any enemy squad to take one health away from.** |
 | Extra Ammo | You came across some extra supplies.  **Once during combat, you may attack twice.** |
-| Boost (aka *Haul Ass*) | **Move one squad twice in one turn.** |
+| Boost (aka *Haul Ass*) | There was extra coffee this morning. **Move one squad twice in one turn.** |
 | Scout | You deploy a scouting mission. **Reveal two adjacent tiles of your choice.** |
 
 ### Combat
