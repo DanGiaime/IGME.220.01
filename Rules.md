@@ -28,7 +28,7 @@ The game has 37 total tiles:
 
 1. First, shuffle all of the land tiles and bonus cards into separate piles.
 2. Begin by placing the two Headquarters tiles with 3 land tiles, face down, between them, and 1 land tile behind each of them.
-3. Continue to place land tiles adjacent to one another, with the middle of the tile aligned with the connecting edge of the adjacent tile. The board should form a hexagon shape when complete.
+3. Continue to place land tiles adjacent to one another, with the middle of the tile aligned with the connecting edge of the adjacent tile. The board should form a hexagonal shape when complete.
 4. Squad chits are used to keep track of the number of units in a squad. The unit marker on top of the stack of chits denotes that squad's unit type. Stack the squad chits according to the unit counts below, then place their corresponding unit marker on the top of the stacks. Place these squads on your Headquarters tile.
 
 #### Starting Squads
@@ -60,7 +60,7 @@ Once all of a player's squads have expended their actions, or chosen not to perf
 ### Movement/Exploration
 
 * _Tiles_ are placed upside-down across the field, so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
-* Tile Reveal happens when you move a squad into “unknown terrain” i.e. move them into fog of war
+* Tile Reveal happens when you move a squad into unknown terrain
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
 * Each squad can only move one tile per turn, unless modified by a bonus tile card.
@@ -82,6 +82,8 @@ Tiles may only have one squad on them at any time. Some tiles provide ATK and/or
 
 Some tiles offer a Tile Bonus to the first player to move on to that tile. Immediately upon moving onto a tile that offers a Tile Bonus, draw a card from the Tile Bonus Card Deck to your hand. You do not have to show the card to the opponent until you play it. Unless otherwise specified, you may play a Tile Bonus Card on any of your turns. You may only use one Tile Bonus Card per turn.
 
+Tile Bonuses are signified by a star in the corner of the tile.
+
 Though the cards themselves specify their effects, another reference is provided here:
 
 | Bonus | Effect |
@@ -96,11 +98,11 @@ Though the cards themselves specify their effects, another reference is provided
 
 Combat occurs when a squad attempts to move onto a tile occupied by an opposing squad. If the defending squad is killed, the attacking squad moves onto the tile. If the attacking squad can not move onto the tile, they may still attack the tile, but may not move.
 
-Squads have 3 stats used in battle - __HP__, __DEF__, and __ATK__.
+Squads have 3 stats used in battle: __HP__, __DEF__, and __ATK__.
 
 ###### HP
 
-A squad's HP is equal to the number of units in the squad. During battle, a squad can only attack if it has at least one HP. If a squad is killed before it can attack, it will deal no damage. When a squad loses HP, units are removed from that squad equal to the amount of damage taken. __The Marker is not counted as a unit.__
+A squad's HP is equal to the number of units in the squad. During battle, a squad can only attack if it has at least one HP. If a squad is killed before it can attack, it will deal no damage. When a squad loses HP, units are removed from that squad equal to the amount of damage taken. __Markers are not counted as units.__
 
 ###### DEF
 
@@ -114,29 +116,29 @@ Each unit type has a specific ATK value depending on the unit type it is attacki
 
 | Infantry   | Value  |
 | :--------- | :----- |
-| vs. Infantry | 1 ATK |
 | vs. Rocketeer | 3 ATK |
 | vs. Mech   | 2 ATK |
+| vs. Infantry | 1 ATK |
 
 
 | Rocketeer | Value  |
 | :--------- | :----- |
-| vs. Rocketeer  | 1 ATK |
 | vs. Mech | 3 ATK |
 | vs. Infantry | 2 ATK |
+| vs. Rocketeer  | 1 ATK |
 
 
 |  Mech  | Value  |
 | :--------- | :----- |
-| vs. Mech | 1 ATK |
 | vs. Infantry | 4 ATK |
 | vs. Rocketeer  | 2 ATK |
+| vs. Mech | 1 ATK |
 
 
 Combat happens in two stages:
 
-1. The attacking squad adds its ATK value to the _tiles_ bonus values and deals that much damage to the defending squad.
-2. The defending squad, __if still alive__, adds its ATK value to the _tiles_ bonus and deals that much damage to the attacking squad.
+1. The attacking squad deals damage equal to its ATK + tile ATK bonus.
+2. The defending squad, __if still alive__, deals damage equal to its ATK + tile ATK bonus.
 
 For example, if a squad of 4 mechs attack a squad of 2 infantry, and both do not have any tile modifiers:
 
