@@ -1,12 +1,17 @@
 ### What is Hexstrat?
-Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of the 3x3x3 hexagonal map, and work their way across the hidden midfield--revealing tiles as they go--in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
+Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of a 5x5x5 hexagonal map, and work their way across the hidden midfield--revealing tiles as they go--in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
 
 ### Game Pieces
-#### Units
-* **12** Infantry units, 6 per player
-* **12** Rocketeer units, 6 per player
-* **8** Mech units, 4 per player
+
+#### Unit Markers
+
+ * **2** Mech markers, one per player
+ * **2** Infantry markers, one per player
+ * **2** Rocketeer markers, one per player
+ * **50** Squad chits
+
 #### Tiles
+
 The game has 37 total tiles:
 * **2** Headquarters tiles, one per player
 * **35** Land tiles
@@ -15,48 +20,60 @@ The game has 37 total tiles:
   * **10** Forest tiles
 
 ### Win Conditions
+
 * Rout - Defeat all of your opponent's units in combat.
 * Seize - Capture your opponent's Headquarters.
 
 ### Setup
-* Begin by selecting the two Headquarters tiles(bright green), and placing them exactly 3 tiles-length apart.
-* Place all world tiles onto the field randomly upside-down, so that the logo is not visible.
-  * Begin by placing the 3 upside-down tiles between the two Headquarters. Then, build outwards equally on both sides until all tiles have been placed, and a hexagon shape is achieved. The Headquarters should be at opposing corners of the hexagonal map.
-* Place all squads onto the Headquarters tile.
-  * Starting squads
-      * Infantry - 6 units
-      * Rocketeer - 6 units
-      * Mech - 4 units
-  * Squad sizes
-      * Infantry - 6 units
-      * Rocketeer - 6 units
-      * Mech - 4 units
-  * A squad moves as one.
-      * All units in a given squad MUST move at the same time, to the same location.
-      * A squad cannot split into partial groups of units.
-      * If some units are destroyed, the rest of the squad must continue to move as one.
-* Deciding who goes first
-  * Play a round of _Rock, Paper, Scissors_. The winning player goes first.
 
-### Tiles
+1. First, shuffle all of the land tiles.
+2. Begin by placing the two Headquarters tiles with 3 land tiles, face down, between them, and 1 land tile behind each of them.
+3. Continue to place land tiles adjacent to one another, with the middle of the tile aligned with the connecting edge of the adjacent tile. The board should form a hexagon shape when complete.
+4. Squad chits are used to keep track of the number of units in a squad. The unit marker on top of the stack of chits denotes that squad's unit type. Stack the squad chits according to the unit counts below, then place their corresponding unit marker on the top of the stacks. Place these squads on your Headquarters tile.
 
-Tiles may only have one squad on them at any time. Some tiles have attack or defense  bonuses. Tiles may also impede or prevent movement for some units.
+#### Starting squads
 
- | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
- | :------- | :-------------------------------------- | :----------------                                 |
- |  Plains  |  No Effect                              | No Effect                                         |
- |  Forest  | +1 Defense to squad as a whole          | Mechs are __impeded__ for the next turn |
- | Mountains| +1 Attack +1 Defense to squad as a whole| Mechs can not move onto mountains |
- | Headquarters     |  No squad Limit on turn 1                | If opponent Headquarters, squad is __impeded__                    |
+* Infantry - 6 units
+* Rocketeer - 6 units
+* Mech - 4 units
 
+### Deciding who goes first
+
+Play a round of _Rock, Paper, Scissors_. The winning player goes first.
+
+### Turn Actions
+
+On their turn, players may perform one action for each of their _unimpeded_ squads:
+
+* **Move** - Your squad attempts to move to an adjacent tile. If the tile has not been revealed yet, reveal the tile, then move the squad. If the squad may not move to the tile (i.e. Mech moving to a Mountain tile), the squad remains on the current tile, and may not perform another action. (See "Movement/Exploration")
+* **Attack** - If one of your opponent's squads is on an adjacent tile, you may enter into combat by attacking that tile. (See "Combat")
+* **Deimpede** - If your squad is in the _impeded_ state, they must perform the deimpede action before they may perform any other actions.
+* **Wait** - Do nothing this turn.
+
+On their turn, players may also play one Tile Bonus Card, unless stated otherwise.
+
+Once all of a player's squads have expended their actions, or chosen not to perform any actions, the turn is over.
 
 ### Movement/Exploration
+
 * _Tiles_ are placed upside-down across the field, so that the type of tile is hidden (i.e. you cannot see if a tile is mountain, forest, or plains).
 * Tile Reveal happens when you move a squad into “unknown terrain” i.e. move them into fog of war
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
 * Each squad can only move one tile per turn.
 * __Impeded__ - Some actions may cause a squad to become impeded. After becoming impeded, the only action that squad may take is to resolve its impeded state. While impeded, the squad still retaliates if attacked.
+
+
+### Tiles
+
+Tiles may only have one squad on them at any time. Some tiles provide attack and/or defense bonues to the occupying squad. Tiles may also impede or prevent movement for some unit types.
+
+ | Tile     | Battle Effect                           | Discovery/Movement Effects                                 |
+ | :------- | :-------------------------------------- | :---------------- |
+ |  Plains  |  No Effect                              | No Effect |
+ |  Forest  | +1 Defense         | Mechs are impeded for the next turn |
+ | Mountains| +1 Attack +1 Defense | Mechs can not move onto mountains |
+ | Headquarters | | If opponent Headquarters, squad is impeded for the next turn |
 
 ### Tile Bonuses
 
@@ -71,13 +88,6 @@ Though the cards themselves specify their effects, another reference is provided
 | Extra Ammo | **Once during combat, you may attack twice.** |
 | Boost (aka *Haul Ass*) | **Move one squad twice in one turn.** |
 | Scout | You deploy a scouting mission. **Reveal two adjacent tiles of your choice.** |
-
-### Turn Actions
-* Each squad gets one action
-* An action consists of either a move, an attack, or resetting that unit's _impeded_ state.
-* Squads can also choose not to perform any action on their turn.
-* Players may play one Tile Bonus Card.
-* Once all of a player's squads have expended their actions, or chosen not to perform any actions, the turn is over.
 
 ### Combat
 
@@ -138,5 +148,6 @@ If a squad of 2 mechs attack a squad of 4 infantry, and the infantry are on the 
 ### Capturing your opponent's HQ
 
 To capture your opponent's Headquarters, your __infantry__ must occupy their Headquarters tile for 3 consecutive turns (including the turn they move onto the tile). On the third turn, the Headquarters is captured, and you win!
+
 
 The attacking player starts the counter on the turn they enter the enemy's HQ. On the attacking player's next turn, if the attacking player's infantry remain on the HQ, the count goes to 2. On the attacking player's next turn after that, if the attacking player's infantry remain on the HQ, the counter goes to 3 and the attacking player wins.
