@@ -100,7 +100,7 @@ Squads have 3 stats used in battle - __HP__, __DEF__, and __ATK__.
 
 ###### HP
 
-A squad's HP is equal to the number of units in the squad. During battle, a squad can only attack if it has at least one HP. If a squad is killed before it can attack, it will deal no damage. When a squad loses HP, units are removed from that squad equal to the amount of damage taken.
+A squad's HP is equal to the number of units in the squad. During battle, a squad can only attack if it has at least one HP. If a squad is killed before it can attack, it will deal no damage. When a squad loses HP, units are removed from that squad equal to the amount of damage taken. __The Marker is not counted as a unit.__
 
 ###### DEF
 
