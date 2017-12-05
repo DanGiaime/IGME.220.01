@@ -86,7 +86,7 @@ Though the cards themselves specify their effects, another reference is provided
 
 | Bonus | Effect |
 | :---- | :----- |
-| Survivors Found | You discovered some survivors! **+2 Infantry/Rockets OR +1 Mech.** *Apply this effect immediately.* |
+| Survivors Found | You discovered some survivors! **+2 Infantry/Rockets OR +1 Mech.** (Whichever unit-type discovered bonus). *Apply this effect immediately.* |
 | Artillery Strike | You strike from a distance. **Pick any enemy squad to take one health away from.** |
 | Extra Ammo | **Once during combat, you may attack twice.** |
 | Boost (aka *Haul Ass*) | **Move one squad twice in one turn.** |
