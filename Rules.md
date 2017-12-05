@@ -137,4 +137,6 @@ If a squad of 2 mechs attack a squad of 4 infantry, and the infantry are on the 
 
 ### Capturing your opponent's HQ
 
-To capture your opponent's Headquarters, your infantry must occupy their Headquarters tile for 3 consecuative turns (including the turn they move onto the tile). On the third turn, the Headquarters is captured, and you win!
+To capture your opponent's Headquarters, your __infantry__ must occupy their Headquarters tile for 3 consecutive turns (including the turn they move onto the tile). On the third turn, the Headquarters is captured, and you win!
+
+The attacking player starts the counter on the turn they enter the enemy's hq. On the attacking player's next turn, if the attacking player's infantry remain on the hq, the count goes to 2. On the attacking player's next turn after that, if the attacking player's infantry remain on the hq, the counter goes to 3 and the attacking player wins.
