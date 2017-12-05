@@ -63,7 +63,7 @@ Once all of a player's squads have expended their actions, or chosen not to perf
 * Tile Reveal happens when you move a squad into “unknown terrain” i.e. move them into fog of war
 * Tile Reveal consists of flipping a Tile that was previously unknown terrain.
 * One must first declare their intent to move a squad in a given direction, at which point the unknown Terrain Tile is flipped at that location. If the squad can move onto the new tile, it does so. If not, the squad does not move onto the tile, and can not move again during this turn.
-* Each squad can only move one tile per turn, unless they use the _Boost_ bonus tile.
+* Each squad can only move one tile per turn, unless modified by a bonus tile card.
 * __Impeded__ - Some actions may cause a squad to become impeded. After becoming impeded, the only action that squad may take is to resolve its impeded state. While impeded, the squad still retaliates if attacked. The impeded state is represented by placing the corresponding squad marker next to the stack for the duration of the impeded state.
 
 
