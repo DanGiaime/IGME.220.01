@@ -1,5 +1,5 @@
-### What is Hexstrat?
-Hexstrat is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of a 4x4x4 hexagonal map, and work their way across the hidden midfield--revealing tiles as they go--in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
+### What is Battle for The Shifting Hills?
+Battle for The Shifting Hills is a 2-player turn-based strategy combat game. Players start with their Headquarters at opposite ends of a 4x4x4 hexagonal map, and work their way across the hidden midfield--revealing tiles as they go--in order to capture their opponent's Headquarters, or defeat all of their opponent's units.
 
 ### Game Pieces
 
